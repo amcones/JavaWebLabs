@@ -8,10 +8,10 @@
 <%@ page import="java.util.*" contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>游戏结果</title>
+    <title>登录结果</title>
 </head>
 <body>
-<h1>游戏结果</h1>
+<h1>登录结果</h1>
 <p>
     <%
         out.print(request.getAttribute("result"));

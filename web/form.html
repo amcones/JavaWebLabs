@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
-    <title>猜数字</title>
+    <title>登录</title>
 </head>
 <body>
 <div id="wrapper">
     <div id="container">
-        <h1>猜数字游戏</h1>
-        <p>系统随机生成一个1到100之间的数</p>
-        <p>请在下面的文本框中输入你猜的数</p>
-        <form method="post" action="GuessNumberServlet.do">
-            <input type="text" name="num">
-            <button type="submit">提交</button>
+        <h1>登录</h1>
+
+        <form method="post" action="LoginServlet.do">
+            <p>用户名：<input type="text" name="username"></p>
+            <p>密码：<input type="password" name="password"></p>
+            <button type="submit">登录</button>
         </form>
     </div>
 </div>
