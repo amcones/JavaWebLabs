@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>猜数字</title>
+</head>
+<body>
+<div id="wrapper">
+    <div id="container">
+        <h1>猜数字游戏</h1>
+        <p>系统随机生成一个1到100之间的数</p>
+        <p>请在下面的文本框中输入你猜的数</p>
+        <form method="post" action="GuessNumberServlet.do">
+            <input type="text" name="num">
+            <button type="submit">提交</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>

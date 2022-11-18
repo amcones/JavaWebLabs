@@ -1,0 +1,32 @@
+#wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+#container{
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 300px;
+    height: 200px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button{
+    transition: all 0.3s linear;
+    background: rgba(0,0,0,.2);
+    border: 2px purple;
+    border-radius: 5px;
+    width: 50px;
+    height: 20px;
+
+}
+
+button:hover{
+    background: rgba(0,0,0,.4);
+}
