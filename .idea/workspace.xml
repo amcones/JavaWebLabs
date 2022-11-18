@@ -9,20 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fef96cae-c156-47b3-89a7-7fdcfe168307" name="变更" comment="complete lab1">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/Tomcat_9_0_56.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Counter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/count.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Guess.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GuessNumberServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Login.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CounterServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/form.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/result.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/style.css" beforeDir="false" />
-    </list>
+    <list default="true" id="fef96cae-c156-47b3-89a7-7fdcfe168307" name="变更" comment="complete lab2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,6 +86,14 @@
       <workItem from="1668043488818" duration="741000" />
       <workItem from="1668072063080" duration="11734000" />
     </task>
+    <task id="LOCAL-00001" summary="complete lab2">
+      <created>1668741819470</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668741819470</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,5 +112,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="complete lab2" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete lab2" />
   </component>
 </project>
