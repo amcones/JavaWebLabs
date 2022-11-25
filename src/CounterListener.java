@@ -12,10 +12,12 @@ public class CounterListener implements ServletContextListener {
     @Override
     public void contextInitialized(ServletContextEvent httpSessionEvent){
         try {
-            BufferedInputStream bufferedInputStream = new BufferedInputStream(new FileInputStream("count.properties"));
-            properties = new Properties();
-            properties.load(bufferedInputStream);
             servletContext = httpSessionEvent.getServletContext();
+            System.out.println(servletContext.getRealPath("/WEB-INF/classes/count.properties"));
+
+            InputStream is =servletContext.getResourceAsStream("/WEB-INF/classes/count.properties");
+            properties = new Properties();
+            properties.load(is);
             counter=new Counter(Integer.parseInt(properties.getProperty("count")));
             System.out.println("Counter已初始化:count="+counter.getCount());
             servletContext.setAttribute("counter",counter);
@@ -27,7 +29,7 @@ public class CounterListener implements ServletContextListener {
     public void contextDestroyed(ServletContextEvent servletContextEvent){
         try {
             properties.setProperty("count",String.valueOf(counter.getCount()));
-            BufferedOutputStream bufferedOutputStream = new BufferedOutputStream(new FileOutputStream("count.properties"));
+            BufferedOutputStream bufferedOutputStream = new BufferedOutputStream(new FileOutputStream(servletContext.getRealPath("/WEB-INF/classes/count.properties")));
             properties.store(bufferedOutputStream, "Update");
             bufferedOutputStream.flush();
             bufferedOutputStream.close();
