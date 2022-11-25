@@ -10,7 +10,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fef96cae-c156-47b3-89a7-7fdcfe168307" name="变更" comment="complete lab2">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.annotation.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.ejb.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.jms.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.persistence.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.resource.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.transaction.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CounterListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ImageServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/JavaWeb_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/JavaWeb_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaWeb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CounterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CounterServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +38,8 @@
       <list>
         <option value="HTML File" />
         <option value="Jsp File" />
-        <option value="Class" />
         <option value="CSS File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -37,7 +53,7 @@
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
-    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_WARNINGS" value="true" />
     <option name="FILTER_INFO" value="true" />
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
@@ -71,10 +87,10 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;项目&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;工件&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.build&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -122,5 +138,9 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="complete lab2" />
     <option name="LAST_COMMIT_MESSAGE" value="complete lab2" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
