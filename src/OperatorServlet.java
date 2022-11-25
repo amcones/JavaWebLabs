@@ -8,17 +8,10 @@ import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 
-@WebServlet("/GuessNumberServlet")
-public class GuessNumberServlet extends HttpServlet {
+@WebServlet("/OperatorServlet")
+public class OperatorServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        Guess guess = new Guess();
-        String numStr = request.getParameter("num");
-        int num=Integer.parseInt(numStr);
-        String result = guess.handleNumber(num);
-        request.setAttribute("result",result);
-        System.out.println(num);
-        RequestDispatcher view = request.getRequestDispatcher("result.jsp");
-        view.forward(request,response);
+
     }
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         doGet(request,response);

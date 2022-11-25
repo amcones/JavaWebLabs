@@ -9,11 +9,27 @@
         <welcome-file>form.html</welcome-file>
     </welcome-file-list>
     <servlet>
-        <servlet-name>GuessNumberServlet</servlet-name>
-        <servlet-class>GuessNumberServlet</servlet-class>
+        <servlet-name>RequestParamsServlet</servlet-name>
+        <servlet-class>RequestParamsServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>OperatorServlet</servlet-name>
+        <servlet-class>OperatorServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ResultServlet</servlet-name>
+        <servlet-class>ResultServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>GuessNumberServlet</servlet-name>
-        <url-pattern>*.do</url-pattern>
+        <servlet-name>RequestParamsServlet</servlet-name>
+        <url-pattern>/servlet1</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>OperatorServlet</servlet-name>
+        <url-pattern>/servlet2</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ResultServlet</servlet-name>
+        <url-pattern>/servlet3</url-pattern>
     </servlet-mapping>
 </web-app>

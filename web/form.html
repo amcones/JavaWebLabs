@@ -8,11 +8,15 @@
 <body>
 <div id="wrapper">
     <div id="container">
-        <h1>猜数字游戏</h1>
-        <p>系统随机生成一个1到100之间的数</p>
-        <p>请在下面的文本框中输入你猜的数</p>
-        <form method="post" action="GuessNumberServlet.do">
-            <input type="text" name="num">
+        <form method="post" action="servlet1">
+            <p>数字1:<input type="text" name="num1"></p>
+            <p>数字2:<input type="text" name="num2"></p>
+            <p>符号:<select name="oper">
+                <option>+</option>
+                <option>-</option>
+                <option>*</option>
+                <option>/</option>
+            </select></p>
             <button type="submit">提交</button>
         </form>
     </div>
