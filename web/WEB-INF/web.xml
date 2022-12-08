@@ -5,15 +5,26 @@
          version="4.0">
     <display-name>GuessNumberGame</display-name>
     <description>Guess number game</description>
-    <welcome-file-list>
-        <welcome-file>form.html</welcome-file>
-    </welcome-file-list>
+<!--    <welcome-file-list>-->
+<!--        <welcome-file>index.jsp</welcome-file>-->
+<!--    </welcome-file-list>-->
     <servlet>
         <servlet-name>GuessNumberServlet</servlet-name>
         <servlet-class>GuessNumberServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>GuessNumberServlet</servlet-name>
-        <url-pattern>*.do</url-pattern>
+        <url-pattern>/servlet1</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RightServlet</servlet-name>
+        <servlet-class>RightServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RightServlet</servlet-name>
+        <url-pattern>/servlet2</url-pattern>
+    </servlet-mapping>
+
+
 </web-app>

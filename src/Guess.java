@@ -1,13 +1,29 @@
+import java.util.Random;
+
 public class Guess {
-    public String handleNumber(int num){
-        int randNum=(int)(Math.random()*100+1);
-        System.out.println(randNum);
-        if(num>randNum){
-            return "用户输入的数字大了";
+    private int randNum;
+    private int count;
+    Guess(){
+        Random random=new Random();
+        randNum=random.nextInt(99)+1;
+        count=0;
+    }
+    public int judge(int x){
+        count++;
+        if(x<randNum) {
+            return -1;
+        } else if(x==randNum) {
+            return 0;
+        } else {
+            return 1;
         }
-        else if(num<randNum){
-            return "用户输入的数字小了";
-        }
-        else return "用户输入正确";
+    }
+
+    public int getRandNum() {
+        return randNum;
+    }
+
+    public int getCount() {
+        return count;
     }
 }
